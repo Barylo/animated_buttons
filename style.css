@@ -1,0 +1,77 @@
+html {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.box1 {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2 {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+   }
+
+.firstbutton {
+background-color: rgb(125, 22, 222);
+margin: 100px auto;
+padding: 5px 10px;
+border-radius: 10%;
+font-size: 20px;
+border: 2px;
+position: relative;
+display: inline-block;
+border-style: solid ;
+border-color: rgb(16, 5, 27);
+transition: all 1s ease 0s;
+transition-duration: 0.5s;
+top: 0;
+transition: background-color 1s;
+}
+
+.firstbutton:hover {
+    background-color: white;
+ }
+
+.secondbutton {
+    display: block; 
+    background-color: rgb(143, 47, 234);
+    padding: 5px 10px;
+    border-radius: 10%;
+    font-size: 20px;
+    border: 2px;
+    position: absolute;
+    border-color: rgb(16, 5, 27);
+    border-radius: 10%;
+    border: 1px;
+    border-style: solid ;
+    margin: 0 auto;
+    transition: all 1s ease 0s;
+    transition-duration: 0.5s;
+    transition: background-color 1s;
+}
+
+p {
+   
+}
+
+    .parag {
+        display: none; 
+        width: 13%; 
+        position: absolute;
+        margin-top: 130px;
+       }
+
+.secondbutton:hover {
+background-color: white;
+}
+
+.secondbutton:hover + .parag {
+       display: block;
+    }
