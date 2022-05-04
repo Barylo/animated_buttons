@@ -74,7 +74,7 @@ p {
 background-color: white;
 }
 
-.secondbutton:hover + div {
+.secondbutton:hover + .parag {
        opacity: 100%
     }
 
