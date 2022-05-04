@@ -62,16 +62,20 @@ p {
 }
 
     .parag {
-        display: none; 
         width: 13%; 
         position: absolute;
         margin-top: 130px;
+        opacity: 0%;
+        transition: all 1s;
+        transition-delay: 1s;
        }
 
 .secondbutton:hover {
 background-color: white;
 }
 
-.secondbutton:hover + .parag {
-       display: block;
+.secondbutton:hover + div {
+       opacity: 100%
     }
+
+    
